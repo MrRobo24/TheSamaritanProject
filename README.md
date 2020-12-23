@@ -3,7 +3,6 @@
 An android application to fulfill the need of connecting NGOs around the globe. The USP of this project is the Activity feature that we have built. This feature can help the NGOs to Seek-Help and Volunteer in various activities around the globe. Some other sections that are implemented in this application are: News Feed, Chat and Profile. This project is in a preliminary stage. A lot of sections like Message Encryption, Cloud Functions Integration and Notifications need some work right now but we have some great ideas in store for the future.
 
 ## Motivation
----------------------
 
 In today’s world where we consume disasters, natural calamities, and economic slow-down in the form of news every single day NGOs become extremely crucial for us and the world we live in. To set the context, I would like to shed some light on the working conditions of most of the NGOs around us. 
 
@@ -11,7 +10,6 @@ In general, NGOs never have enough resources. They always start with an aim of d
 
 
 ## Solution
--------------------
 
 The primary objective of this project is to build an android application that can bring together the small NGOs around our nation in the constructive work which they do at the individual level. Our objectives through this project are:
 1. Increase collaboration among small NGOs.
@@ -47,9 +45,10 @@ The primary objective of this project is to build an android application that ca
   </tr>
  </table>
  
+-------------------
 
 ## Installation
--------------------
+
 1. Clone this repository and import into **Android Studio**
 ```bash
 git clone https://github.com/MrRobo24/TheSamaritanProject
