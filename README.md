@@ -19,6 +19,34 @@ The primary objective of this project is to build an android application that ca
 4. Create a common interface where Samaritans can extend help and NGOs can seek help in the form of the workforce, non-monetary resources, information, etc.
 5. Provide seamless clutter-free coordination between the volunteers.
 
+## Application Screenshots
+-------------------
+
+<table>
+  <tr>
+    <td>News Feed</td>
+     <td>Connect</td>
+     <td>Chat Log</td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/newsfeed.jpeg" width=270 height=480></td>
+    <td><img src="screenshots/connect.jpeg" width=270 height=480></td>
+    <td><img src="screenshots/chat-log.jpeg" width=270 height=480></td>
+  </tr>
+ </table>
+ <br>
+ <table>
+  <tr>
+     <td>Volunteer</td>
+     <td>Seek Help</td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/volunteer.jpeg" width=270 height=480></td>
+    <td><img src="screenshots/seek-help.jpeg" width=270 height=480></td>
+  </tr>
+ </table>
+ 
+
 ## Installation
 -------------------
 1. Clone this repository and import into **Android Studio**
