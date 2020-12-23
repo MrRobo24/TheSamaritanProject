@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            app:cardElevation="10dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="15dp"
+                android:paddingHorizontal="10dp">
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/txtCategory"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="Category:"-->
+                <!--                    android:textColor="@color/black"-->
+                <!--                    android:textStyle="bold"-->
+                <!--                    android:padding="5dp"-->
+                <!--                    android:layout_marginLeft="10dp"-->
+                <!--                    android:layout_marginRight="10dp"-->
+                <!--                    android:layout_marginTop="10dp"/>-->
+
+                <TextView
+                    android:id="@+id/txtTitleAns"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Orphanage"
+                    android:textAlignment="center"
+                    android:maxWidth="200dp"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMinTextSize="12sp"
+                    android:autoSizeMaxTextSize="50sp"
+                    android:autoSizeStepGranularity="2sp"
+                    android:layout_centerHorizontal="true"
+                    android:padding="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal" />
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/txtType"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="Type:"-->
+                <!--                    android:textColor="@color/black"-->
+                <!--                    android:textStyle="bold"-->
+                <!--                    android:layout_below="@+id/txtCategoryAns"-->
+                <!--                    android:padding="5dp"-->
+                <!--                    android:layout_marginLeft="10dp"-->
+                <!--                    android:layout_marginRight="10dp"-->
+                <!--                    android:layout_marginTop="10dp"/>-->
+
+                <TextView
+                    android:id="@+id/txtTypeAns"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="Human Resource"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMinTextSize="10sp"
+                    android:autoSizeMaxTextSize="15sp"
+                    android:autoSizeStepGranularity="2sp"
+                    android:layout_alignParentBottom="true"/>
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/txtState"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="State:"-->
+                <!--                    android:textColor="@color/black"-->
+                <!--                    android:textStyle="bold"-->
+                <!--                    android:layout_below="@+id/txtTypeAns"-->
+                <!--                    android:padding="5dp"-->
+                <!--                    android:layout_marginLeft="10dp"-->
+                <!--                    android:layout_marginRight="10dp"-->
+                <!--                    android:layout_marginTop="10dp"/>-->
+
+                <TextView
+                    android:id="@+id/txtStateAns"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="West Bengal"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMinTextSize="10sp"
+                    android:autoSizeMaxTextSize="15sp"
+                    android:autoSizeStepGranularity="2sp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center" />
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/txtCityPincode"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="City / Pincode:"-->
+                <!--                    android:textColor="@color/black"-->
+                <!--                    android:textStyle="bold"-->
+                <!--                    android:layout_below="@+id/txtStateAns"-->
+                <!--                    android:padding="5dp"-->
+                <!--                    android:layout_marginLeft="10dp"-->
+                <!--                    android:layout_marginRight="10dp"-->
+                <!--                    android:layout_marginTop="10dp"/>-->
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/txtCityPincodeAns"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="Kolkata, 700045"-->
+                <!--                    android:layout_below="@+id/txtStateAns"-->
+                <!--                    android:layout_toRightOf="@+id/txtCityPincode"-->
+                <!--                    android:padding="5dp"-->
+                <!--                    android:layout_marginLeft="10dp"-->
+                <!--                    android:layout_marginRight="10dp"-->
+                <!--                    android:layout_marginTop="10dp"/>-->
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/txtDescription"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="Description:"-->
+                <!--                    android:textColor="@color/black"-->
+                <!--                    android:textStyle="bold"-->
+                <!--                    android:layout_below="@+id/txtCityPincodeAns"-->
+                <!--                    android:padding="5dp"-->
+                <!--                    android:layout_marginLeft="10dp"-->
+                <!--                    android:layout_marginRight="10dp"-->
+                <!--                    android:layout_marginTop="10dp"/>-->
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/txtDescriptionAns"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="This method will be triggered in the event that this listener either failed at the server, or is removed as a result of the security and Firebase rules. For more information on securing your data, see: Security Quickstart"-->
+                <!--                    android:layout_below="@+id/txtCityPincodeAns"-->
+                <!--                    android:layout_toRightOf="@+id/txtDescription"-->
+                <!--                    android:padding="5dp"-->
+                <!--                    android:layout_marginLeft="10dp"-->
+                <!--                    android:layout_marginRight="10dp"-->
+                <!--                    android:layout_marginTop="10dp"/>-->
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/txtContact"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="Contact:"-->
+                <!--                    android:textColor="@color/black"-->
+                <!--                    android:textStyle="bold"-->
+                <!--                    android:layout_below="@+id/txtDescriptionAns"-->
+                <!--                    android:padding="5dp"-->
+                <!--                    android:layout_marginLeft="10dp"-->
+                <!--                    android:layout_marginRight="10dp"-->
+                <!--                    android:layout_marginTop="10dp"/>-->
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/txtContactAns"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="9876543210"-->
+                <!--                    android:layout_below="@+id/txtDescriptionAns"-->
+                <!--                    android:layout_toRightOf="@+id/txtContact"-->
+                <!--                    android:padding="5dp"-->
+                <!--                    android:layout_marginLeft="10dp"-->
+                <!--                    android:layout_marginRight="10dp"-->
+                <!--                    android:layout_marginTop="10dp"/>-->
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/btnVolunteer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/volunteer_button_bg"
+        app:srcCompat="@drawable/ic_add_form"
+        android:tint="@color/white"
+        android:layout_below="@+id/container"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>

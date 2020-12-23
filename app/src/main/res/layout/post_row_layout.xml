@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginTop="85dp"
+    android:layout_marginBottom="90dp"
+    android:background="@drawable/post_bg">
+
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_margin="5dp">-->
+
+
+    <!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+    <!--            android:id="@+id/like"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:clickable="true"-->
+    <!--            app:backgroundTint="#FFFFFF"-->
+    <!--            app:fabCustomSize="80dp"-->
+    <!--            app:layout_constraintBottom_toBottomOf="@+id/imageView3"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintHorizontal_bias="0.500"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@+id/info3"-->
+    <!--            app:layout_constraintVertical_bias="0.739"-->
+    <!--            app:maxImageSize="50dp"-->
+    <!--            app:srcCompat="@drawable/ic_like" />-->
+
+    <!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+    <!--            android:id="@+id/share"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:clickable="true"-->
+    <!--            app:backgroundTint="#FAFFFFFF"-->
+    <!--            app:fabCustomSize="70dp"-->
+    <!--            app:layout_constraintBottom_toBottomOf="@+id/imageView3"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintHorizontal_bias="0.200"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@+id/info3"-->
+    <!--            app:layout_constraintVertical_bias="0.210"-->
+    <!--            app:maxImageSize="40dp"-->
+    <!--            app:srcCompat="@drawable/ic_share" />-->
+
+    <!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+    <!--            android:id="@+id/floatingActionButton"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:clickable="true"-->
+    <!--            app:backgroundTint="#FFFFFF"-->
+    <!--            app:fabCustomSize="70dp"-->
+    <!--            app:layout_constraintBottom_toBottomOf="@+id/imageView3"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintHorizontal_bias="0.800"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@+id/info3"-->
+    <!--            app:layout_constraintVertical_bias="0.210"-->
+    <!--            app:maxImageSize="40dp"-->
+    <!--            app:srcCompat="@drawable/ic_save">-->
+
+    <!--        </com.google.android.material.floatingactionbutton.FloatingActionButton>-->
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.55"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.464"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/info3"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:autoSizeMaxTextSize="20sp"
+        android:autoSizeMinTextSize="15sp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center_horizontal"
+        android:maxLines="2"
+        android:text="Lorem ipsum dolor sit amet, consectetur
+adipiscing elit, sed do eiusmod tempor"
+        android:textColor="#D5FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.127" />
+
+    <TextView
+        android:id="@+id/profilename"
+        android:layout_width="119dp"
+        android:layout_height="25dp"
+        android:autoSizeMaxTextSize="20sp"
+        android:autoSizeMinTextSize="15sp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="Profile Name"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/profilename"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintLeft_toRightOf="@+id/profilename"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <!--    </androidx.cardview.widget.CardView>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

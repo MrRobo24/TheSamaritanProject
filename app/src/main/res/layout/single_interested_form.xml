@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_centerHorizontal="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/txtCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtCategoryAns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Orphanage"
+                android:layout_toRightOf="@+id/txtCategory"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/txtCategoryAns"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtTypeAns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Volunteer"
+                android:layout_below="@+id/txtCategoryAns"
+                android:layout_toRightOf="@+id/txtType"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="State:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/txtTypeAns"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtStateAns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="West Bengal"
+                android:layout_below="@+id/txtTypeAns"
+                android:layout_toRightOf="@+id/txtState"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtCityPincode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="City / Pincode:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/txtStateAns"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtCityPincodeAns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kolkata, 700045"
+                android:layout_below="@+id/txtStateAns"
+                android:layout_toRightOf="@+id/txtCityPincode"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/txtCityPincodeAns"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtDescriptionAns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This method will be triggered in the event that this listener either failed at the server, or is removed as a result of the security and Firebase rules. For more information on securing your data, see: Security Quickstart"
+                android:layout_below="@+id/txtDescription"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtContact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/txtDescriptionAns"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtContactAns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9876543210"
+                android:layout_below="@+id/txtDescriptionAns"
+                android:layout_toRightOf="@+id/txtContact"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:id="@+id/llButtonContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="40dp"
+                android:layout_below="@+id/txtContactAns"
+                android:weightSum="2"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/btnChat"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chat"
+                    android:layout_centerHorizontal="true"/>
+
+                <Button
+                    android:id="@+id/btnActivate"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Activate"
+                    android:layout_centerHorizontal="true"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

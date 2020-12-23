@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aclonica</item>
+        <item>@font/akronim</item>
+        <item>@font/allura</item>
+        <item>@font/almendra_display</item>
+        <item>@font/arbutus</item>
+        <item>@font/arima_madurai_extrabold</item>
+        <item>@font/arima_madurai_thin</item>
+        <item>@font/comfortaa_bold</item>
+    </array>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="10dp"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_profile"
+                android:layout_centerVertical="true"/>
+
+            <LinearLayout
+                android:id="@+id/llDetails"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/imgProfile"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/txtUserId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="User id"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/txtUserEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email id"
+                    android:textSize="15sp"
+                    android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imgRequest"-->
+<!--                android:layout_width="60dp"-->
+<!--                android:layout_height="60dp"-->
+<!--                android:src="@drawable/ic_request"-->
+<!--                android:layout_toRightOf="@+id/llDetails"-->
+<!--                android:layout_centerInParent="true" />-->
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

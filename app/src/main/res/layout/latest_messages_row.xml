@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imgImagePreview"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/ic_profile" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civImagePreview"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/txtUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_toRightOf="@+id/civImagePreview"
+        android:text="User Name"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:id="@+id/txtMessagePeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtUserName"
+        android:layout_marginHorizontal="30dp"
+        android:layout_toRightOf="@+id/civImagePreview"
+        android:maxLines="1"
+        android:text="This is the latest message"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

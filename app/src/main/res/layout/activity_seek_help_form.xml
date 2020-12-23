@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".activity.volunteerseeker.SeekHelpFormActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <EditText
+                    android:id="@+id/edTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:inputType="text"
+                    android:maxLength="50"
+                    android:hint="Enter a catchy title"/>
+
+                <TextView
+                    android:id="@+id/txtCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Category:"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"/>
+
+                <Spinner
+                    android:id="@+id/spinnerCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"/>
+
+                <TextView
+                    android:id="@+id/txtType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type:"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"/>
+
+                <Spinner
+                    android:id="@+id/spinnerType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"/>
+
+                <TextView
+                    android:id="@+id/txtState"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="State:"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"/>
+
+                <Spinner
+                    android:id="@+id/spinnerState"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"/>
+
+                <EditText
+                    android:id="@+id/edCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:inputType="text"
+                    android:hint="Enter your city"/>
+
+                <EditText
+                    android:id="@+id/edPincode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:inputType="number"
+                    android:hint="Enter your pincode"/>
+
+                <EditText
+                    android:id="@+id/edDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
+                    android:inputType="textMultiLine"
+                    android:hint="Enter your description"/>
+
+                <EditText
+                    android:id="@+id/edContact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:hint="Contact Number"/>
+
+                <Button
+                    android:id="@+id/btnSubmit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Submit"
+                    android:textColor="@color/white"
+                    android:background="@color/colorPrimary"
+                    android:layout_margin="20dp"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
