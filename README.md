@@ -1,5 +1,4 @@
 # TheSamaritanProject
----------------------
 
 An android application to fulfill the need of connecting NGOs around the globe. The USP of this project is the Activity feature that we have built. This feature can help the NGOs to Seek-Help and Volunteer in various activities around the globe. Some other sections that are implemented in this application are: News Feed, Chat and Profile. This project is in a preliminary stage. A lot of sections like Message Encryption, Cloud Functions Integration and Notifications need some work right now but we have some great ideas in store for the future.
 
