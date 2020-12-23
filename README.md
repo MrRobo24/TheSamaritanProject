@@ -21,11 +21,11 @@ The primary objective of this project is to build an android application that ca
 
 ## Installation
 -------------------
-Clone this repository and import into **Android Studio**
+1. Clone this repository and import into **Android Studio**
 ```bash
 git clone https://github.com/MrRobo24/TheSamaritanProject
 ```
-Link it with Google Firebase Project
-**Read:** https://firebase.google.com/docs/android/setup
-Generate and put google-services.json file in [a_relative_link](TheSamaritanProject/app/)
-Import this structure in Realtime Database: [a relative link](the-samaritans-export.json)
+2. Link it with Google Firebase Project
+ **Read:** https://firebase.google.com/docs/android/setup
+3. Generate and put google-services.json file in [TheSamaritanProject/app/](TheSamaritanProject/app/)
+4. Import this structure in Realtime Database: [the-samaritans-export.json](the-samaritans-export.json)
