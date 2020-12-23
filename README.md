@@ -27,5 +27,5 @@ git clone https://github.com/MrRobo24/TheSamaritanProject
 ```
 2. Link it with Google Firebase Project
  **Read:** https://firebase.google.com/docs/android/setup
-3. Generate and put google-services.json file in [TheSamaritanProject/app/](TheSamaritanProject/app/)
+3. Generate and put google-services.json file in [TheSamaritanProject/app/](/app/)
 4. Import this structure in Realtime Database: [the-samaritans-export.json](the-samaritans-export.json)
